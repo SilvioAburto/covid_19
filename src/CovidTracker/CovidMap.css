@@ -1,0 +1,23 @@
+
+.covidMap {
+    padding-top:0;
+}
+
+.caseType {
+  font-weight: bolder;
+}
+.leaflet-container {
+    width: 60%;
+    margin-left:20%;
+    height: 50vh;
+    position:center;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .leaflet-container {
+        width: 100% !important;
+        margin-left:0 !important;
+        height: 50vh;
+        position:center;
+    }
+  }

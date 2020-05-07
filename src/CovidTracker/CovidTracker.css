@@ -1,0 +1,80 @@
+
+
+.cardsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    width:60%;
+    margin-left: 20%;
+  }
+
+
+  @media only screen and (max-width: 770px) {
+    .cardsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+        width:100% !important;
+    }
+  }
+html {
+    background-color: white;
+}
+
+.boxTitle {
+    color:red;
+}
+
+.dashTitle {
+    padding:1%;
+    text-align: center;
+    font-weight: bolder;
+    font-size:200%;
+    color:rgb(2, 97, 2);
+}
+
+.titleCreator{
+    position:absolute;
+    text-align: right;
+    font-size: 100%;
+}
+
+.countryDropdown{
+    text-align: left !important;
+    font-weight: bold;
+    padding-bottom: 20px !important;
+}
+.confirmedTitle, .activeTitle, .deathsTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size:160%;
+}
+
+.cardTotal {
+    border: 1px black solid !important;
+    background-color: #e9a932 !important;
+}
+.cardActive {
+    border: 1px black solid !important;
+    background-color: #51be57cc !important;   
+}
+.cardDeaths {
+    border: 1px black solid !important;
+    background-color: #ff7671 !important;   
+}
+.cardRecovered  {
+    border: 1px black solid !important;
+    background-color: #6ba9fa !important;   
+}
+
+
+
+.count {
+    font-size: 190%;
+    color:blue;
+    font-weight: bold;
+    text-align: center;
+}
+
